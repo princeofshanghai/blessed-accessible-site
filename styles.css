@@ -34,6 +34,14 @@ a:hover{
   padding-bottom:0;
 }
 
+.active {
+  border-bottom:solid 2px #fff;
+}
+
+.active2{
+  border-bottom:solid 2px #FEB2BF;
+}
+
 /******** INDEX PAGE *******/ 
 
 
@@ -110,8 +118,12 @@ footer {
 /***** WINTER ARTICLE *******/
 .article {
     font-size:1.3rem;
-    line-height:1.7;
+    line-height:1.8;
     margin-top:5%;
+}
+
+.breadcrumb {
+  background-color:none;
 }
 
 /******** LOOKBOOK *******/
@@ -123,9 +135,15 @@ footer {
   background-size: 100%, 100%;
 }
 
+hr {
+  margin-top:6rem;
+}
 
-
-
+.and-more2{
+  margin-top:0;
+  box-shadow: 30px 20px #FEB2BF;
+  display:inline-block;
+}
 
 
 /******** WHO WE ARE ******/
@@ -156,7 +174,7 @@ caption {
   	padding-left:0;
   }
 
-  form {
+  .form {
   	width:60%;
   	margin: 0 auto;
   }
@@ -167,7 +185,7 @@ caption {
 
 
   @media (max-width: 768px) {
-  	form {
+  	.form {
   		width:90%;
   	}
 
@@ -177,6 +195,15 @@ caption {
 
     .instagrammable_text{
       position:static;
+    }
+
+    .jumbotron {
+  background-image:none;
+  background-color:#FFE1DF;
+    }
+
+    .subscribe {
+      width:80%;
     }
   }
 
